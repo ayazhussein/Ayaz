@@ -1,0 +1,18 @@
+mixin nav-content()
+    ul
+        li: a(href="#about") About
+        li: a(href="#portfolio") Portfolio
+        li: a(href="#medcourse") Medical Courses
+        li: a(href="#contact") Contact
+
+
+header
+    .header-position
+        .logo-wrapper
+            h1.logo Ayaz Hussein
+            .mobile-nav-toggle: span
+
+        nav.site-nav
+            +nav-content()
+
+
